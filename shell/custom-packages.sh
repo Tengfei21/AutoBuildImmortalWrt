@@ -112,7 +112,6 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-my-dnshelper"     # My DNS Helper 插
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-natmap"            # NAT 映射插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nft-timecontrol"   # 网络流量时间控制插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-npc"              # NPC 插件（网络访问控制）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netdata"           # NetData 插件（实时监控）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"      # 网络测速插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nlbwmon"           # 网络带宽监控插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn"           # OpenVPN 插件
