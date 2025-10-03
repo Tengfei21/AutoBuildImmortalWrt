@@ -123,14 +123,10 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quantumult"        # Quantumult 插�
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ramfree"           # 内存管理插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-raspberrypi"       # 树莓派支持插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba"             # Samba 文件共享插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-sentinel"          # 数据保护和防泄漏插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-smartdns"          # SmartDNS 插件（智能 DNS）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-squid"             # Squid 代理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-stunnel"           # Stunnel 插件（加密隧道）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"         # Tailscale 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-unblockmusic"      # 解锁音乐插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-upnp"              # UPnP 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wireguard"         # WireGuard 插件（VPN）
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wifischedule"      # WiFi 调度插件
 
 # ==================== 结束 ====================
