@@ -23,110 +23,141 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nekobox"          # Nekobox 插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-openclash"        # OpenClash 插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-homeproxy-zh-cn" # HomeProxy 插件中文包
 
-# ==================== VPN 和网络加速 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"         # Tailscale 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-tailscale-zh-cn"  # Tailscale 中文包
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp"           # 分区扩容工具
-
-# ==================== 主题和界面 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-kucat"           # 酷猫主题
-
 # ==================== 进阶设置 ====================
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus"      # 进阶设置插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-advancedplus-zh-cn" # 进阶设置插件中文包
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-app-argon-config"     # 排除 Argon 配置插件
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES -luci-i18n-argon-config-zh-cn" # 排除 Argon 配置中文包
 
-# ==================== 网络测速 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"      # 网络测速插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netspeedtest-zh-cn" # 网络测速插件中文包
+# ==================== 网络与功能 ====================
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-zerotier"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-xunyou"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-apfree-wifidog"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-webdav"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-watchcat"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-vsftpd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-vlmcsd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uugamebooster"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-unishare"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-unblockneteasemusic"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-transmission"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-timecontrol"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-thunder"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-syncdial"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-subconverter"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cupsd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-sqm-autorate"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-softethervpn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-socat"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-smartdns"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wechatpush"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba4"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rclone"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-qosmate"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-qbittorrent"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-partexp"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-parentcontrol"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn-server-client"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openlist2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES BaiduPCS-Go"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-oaf"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-npc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nft-timecontrol"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-natmap"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mwan3helper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-msd_lite"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ksmbd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-kodexplorer"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ipsec-server"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-homeassistant"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-guest-wifi"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-frps"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-frpc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-eqosplus"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-easytier"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-easymesh"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-dufs"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-diskman"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns-go"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-dae"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-daed"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cloudreve"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cpulimit"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-clouddrive2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cifs-mount"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-broadbandacc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-arpbind"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-aria2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ap-modem"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-airplay"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-accesscontrol-plus"
 
-# ==================== MosDNS ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"            # MosDNS 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"     # MosDNS 插件中文包
+# ==================== 依赖与扩展包 ====================
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES autoshare-samba"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES my-dnshelper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES linkease"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES autoshare-ksmbd"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES ddnsto"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES clouddrive2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES aliyundrive-webdav"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES adbyby"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-istorex"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES iptvhelper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-iptvhelper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES tvhelper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES naiveproxy"
 
-# ==================== 网络加速 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"          # Turbo ACC 插件
+# ==================== LuCI/其它插件与语言包 ====================
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ssr-plus"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-passwall2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nekobox"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-tailscale-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-advancedplus-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netspeedtest-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-mosdns-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-turboacc"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netwizard-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-taskplan-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adbyby-plus"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-airplay2"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-aliyundrive-webdav"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-filebrowser"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-linkease"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-my-dnshelper"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netdata"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nlbwmon"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-pairing"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-pihole"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-privoxy"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quantumult"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ramfree"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-raspberrypi"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-squid"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-upnp"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wifischedule"
 
-# ==================== 应用过滤 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter"         # 应用过滤插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-appfilter-zh-cn"  # 应用过滤插件中文包
-
-# ==================== 设置向导 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netwizard"         # 网络向导插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-netwizard-zh-cn"  # 网络向导插件中文包
-
-# ==================== Lucky 大吉 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"             # Lucky 大吉插件
-
-# ==================== 集客AC ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-gecoosac"          # 集客AC 插件
-
-# ==================== 任务设置 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan"          # 任务计划插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-taskplan-zh-cn"   # 任务计划插件中文包
-
-# ==================== Easytier ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES easytier"                   # Easytier 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-easytier"          # Easytier luci 插件
-
-# ==================== 统一文件共享 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES webdav2"                    # WebDAV 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-unishare"          # UniShare 插件
-
-# ==================== 更多插件 ====================
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-adbyby-plus"       # Adbyby Plus 广告拦截插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-airplay2"          # AirPlay 2 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-aliyundrive-webdav" # 阿里云盘 WebDAV 客户端
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ap-modem"          # AP 模式设置插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-aria2"            # Aria2 下载管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-arpbind"           # ARP 绑定插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"            # 带宽监控插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-broadbandacc"      # 宽带加速插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cifs-mount"        # CIFS 文件共享插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-clouddrive2"       # 云盘管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cpulimit"          # CPU 限制工具
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-cloudreve"         # Cloudreve 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-daed"              # 存储管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddnsto"            # DDNSTO 插件（动态 DNS）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns"              # 动态 DNS 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ddns-go"           # Go版动态 DNS 客户端
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-diskman"           # 磁盘管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-dufs"              # DUFS 文件系统插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-easymesh"          # EasyMesh 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-eqosplus"          # 网络带宽和流量管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-filebrowser"       # 文件浏览器插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-frpc"              # FRP 客户端插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-frps"              # FRP 服务器插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-guest-wifi"        # 客户端隔离 WiFi 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-homeassistant"     # Home Assistant 集成插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ipsec-server"      # IPsec VPN 服务器插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-kodexplorer"       # KodExplorer 文件管理器
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ksmbd"             # ksmbd 插件（Samba 协议）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-linkease"          # LinkEase 文件分享插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"             # Lucky 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mosdns"            # MosDNS 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-msd_lite"          # MSD Lite 插件（磁盘管理）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-mwan3"             # MWAN3 插件（多 WAN 负载均衡）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-my-dnshelper"     # My DNS Helper 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-natmap"            # NAT 映射插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nft-timecontrol"   # 网络流量时间控制插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-npc"              # NPC 插件（网络访问控制）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-netspeedtest"      # 网络测速插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nlbwmon"           # 网络带宽监控插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn"           # OpenVPN 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-pairing"           # 设备配对插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-pihole"            # PiHole 插件（广告拦截）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-privoxy"           # Privoxy 插件（代理工具）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quantumult"        # Quantumult 插件（代理工具）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-ramfree"           # 内存管理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-raspberrypi"       # 树莓派支持插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-samba"             # Samba 文件共享插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-smartdns"          # SmartDNS 插件（智能 DNS）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-squid"             # Squid 代理插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale"         # Tailscale 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-upnp"              # UPnP 插件
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-wifischedule"      # WiFi 调度插件
+# ==================== 使用说明 ====================
+# 可直接在 OpenWrt/ImmortalWrt 自动化脚本中引用 $CUSTOM_PACKAGES
+# 如需增删包，直接增删本文件对应行即可
 
 # ==================== 结束 ====================
 # 完成插件配置，后续构建会根据以上配置安装相应插件
